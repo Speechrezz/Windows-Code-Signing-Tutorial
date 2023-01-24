@@ -1,0 +1,22 @@
+To proceed with the code signing process, you need a certificate in pfx format. I would like to share that a PFX file can be created by combining Codesigning(server) certificate, CABundle, and private key.
+
+1. Server Certificate (Codesigning certificate): You will have to copy the content of it in notepad and save it with .crt extension. You can download it from the below path:
+On ssl2buy.com, login to your account > My Orders > Open Order# > Click on "Manage SSL" Button > Enter into configuration wizard > Get certificate. From here, the first textbox will have the Server Certificate. Go ahead and copy that into notepad and save it as ServerCertificate.crt.
+
+2. CABundle: You can follow the below steps to create a CABundle. You will get all of the below files from the above path:
+a. Intermediate Certificate2
+b. Intermediate Certificate1
+c. Root Certificate
+Now: You need to copy all 3 (root and intermediate)files in one notepad, please make sure to paste these files in the given order Intermediate Certificate2 >> Intermediate Certificate1 >> Root Certificate one below another and save it as CAbundle.crt.
+
+3. Private key: The private key is generated along with the CSR and it should have been saved on your end. You will have to save it with .key Extension (call it PrivateKey.key).
+
+Once you've all 3 files with you, then you can convert the pfx file format from here:
+https://www.sslshopper.com/ssl-converter.html
+
+Certificate File to Convert - Server Certificate
+Private Key File - saved on your end
+Chain Certificate File (optional) - CAbundle
+
+Type of Current Certificate - Standard PEM
+Type To Convert To - PFX/PKCS#12
