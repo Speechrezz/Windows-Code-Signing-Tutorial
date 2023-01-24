@@ -72,9 +72,9 @@ Here is an example:
 
 If this doesn't work, try replacing the `10.0.19041.0` folder with a different one in that `bin` directory. Sometimes older versions of the signtool work better.
 
-Finally, *FINALLY*, your are done! Your app should be signed!!!!
+Finally, *FINALLY*, you are done! Your app should be signed!!1!
 
-Congrats!
+Congratulations, now go do more productive things!
 
 
 ## Useful resources:
