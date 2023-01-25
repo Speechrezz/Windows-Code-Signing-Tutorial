@@ -48,9 +48,9 @@ This will require a few steps:
 
 <br/>
 
-## Actually signing the application
+## Step 3 - Actually signing the application
 
-Step 3 - Finally, we can *at last* sign your stupid app.
+Finally, we can *at last* sign your stupid app.
 
 Make sure you have the Windows signtool installed. If you don't, I believe it comes with the Windows SDK.
 
