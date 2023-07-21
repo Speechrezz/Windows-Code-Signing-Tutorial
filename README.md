@@ -82,3 +82,8 @@ Congratulations, now go do more productive things!
 - Certificate conversion tool: https://www.sslshopper.com/ssl-converter.html
 - Using Windows signtool: https://support.sectigo.com/IS_KnowledgeDetailPage?Id=kA01N000000zFK1
 - More signtool documentation: https://learn.microsoft.com/en-us/windows/win32/seccrypto/signtool
+
+## Credits:
+- **Speechrezz**: Bulk of the writing and a chunk of the research.
+- **Direct**: Bulk of the research/experimentation.
+- **Phillip Bruce**: Fix typos and other mistakes.
